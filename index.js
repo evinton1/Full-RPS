@@ -1,24 +1,3 @@
-/*const container = document.querySelector('#container');
-
-const scoreDiv = document.createElement('div');
-scoreDiv.classList.add('scoreDiv');
-scoreDiv.setAttribute("id", "score");
-scoreDiv.textContent = "Amazing Paper Scissors Rock";
-
-const comScore = document.createElement('p');
-comScore.setAttribute("id", "comScore");
-comScore.textContent = "comScore";
-
-const playerScore = document.createElement('p');
-playerScore.setAttribute("id", "playerScore");
-playerScore.textContent = "playerScore";
-
-scoreDiv.appendChild(comScore);
-scoreDiv.appendChild(playerScore);
-
-container.appendChild(scoreDiv);
-*/
-
 const rock = document.getElementById('Rock');
 const paper = document.getElementById('Paper');
 const scissors = document.getElementById('Scissors');
@@ -78,16 +57,3 @@ var playRound = function() {
       "Computer Score - " + computerScore
     );
   }
-  /*do {
-    playRound();
-    if (playerScore === 5) {
-      console.log("You win the game!");
-  }
-    else if (computerScore === 5) {
-      console.log("You lose the game!");
-    }
-    else {
-    playRound();
-  }      
-  } while (playerScore < 5 && computerScore < 5);
-}
