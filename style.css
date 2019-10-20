@@ -15,7 +15,7 @@
   }
 
 #reset {
-  background-color: rgba(81, 183, 209, 0.918);
+  background: url("Images/Final.jpeg");
   font-size: 100px;
   justify-content: center;
   text-align: center;
@@ -36,7 +36,6 @@
 }
 
 button {
-  background-color: rgb(87, 111, 112);
   font-size: 300%;
   margin-top: 100px;
   margin-left: 14%;
@@ -45,4 +44,14 @@ button {
 
 #Scissors {
   margin-right: 0px;
+  background: url("Images/Scissors.jpeg");
 }
+
+#Rock {
+  background: url("Images/Rock.jpeg");
+}
+
+#Paper {
+  background: url("Images/Paper.jpg");
+}
+
