@@ -14,7 +14,8 @@
 
 #reset {
   background: url("Images/Final.jpeg");
-  font-size: 100px;
+  height: 100px;
+  width: 100px;
   justify-content: center;
   text-align: center;
   }
@@ -38,6 +39,8 @@ button {
   margin-top: 100px;
   margin-left: 14%;
   float: left;
+  height: 100px;
+  width: 100px;
  }
 
 #Scissors {
