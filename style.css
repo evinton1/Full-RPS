@@ -13,9 +13,6 @@
   }
 
 #reset {
-  background: url("Images/Final.jpeg");
-  height: 100px;
-  width: 100px;
   justify-content: center;
   text-align: center;
   }
@@ -26,7 +23,12 @@
   padding-top: 400px;
   
 }
-
+h2 {
+  color: rgb(52, 42, 104);
+    font-size: 50px;
+    float: left;
+    padding-top: 400px;
+}
 #cScore {
   color: rgb(52, 42, 104);
   font-size: 50px;
@@ -39,26 +41,8 @@ button {
   margin-top: 100px;
   margin-left: 14%;
   float: left;
-  height: 100px;
-  width: 100px;
  }
 
 #Scissors {
-  height: 100px;
-  width: 100px;
   margin-right: 0px;
-  background: url("Images/Scissors.jpeg");
 }
-
-#Rock {
-  height: 100px;
-  width: 100px;
-  background: url("Images/Rock.jpeg");
-}
-
-#Paper {
-  height: 100px;
-  width: 100px;
-  background: url("Images/Paper.jpg");
-}
-
