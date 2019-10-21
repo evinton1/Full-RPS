@@ -30,11 +30,11 @@ box-shadow: 0 5px #666;
 }
 
 h2#cHeader {
-    padding-right: 13%;
+    padding-right: 16%;
 }
 
 h2#pHeader {
-    padding-left: 15%;
+    padding-left: 17%;
 }
 
 div#buttons {
@@ -72,7 +72,7 @@ div#buttons {
   font-size: 40px;
   /* float: left; */
   width: fit-content;
-  padding-left: 19%;
+  padding-left: 21%;
   margin-top: 0px;
   padding-top: 4%;
   height: fit-content;
@@ -84,6 +84,7 @@ h2 {
   color: rgb(52, 42, 104);
   font-size: 30px;
   margin-bottom: 0px;
+  width: fit-content;
   /* margin-right: 0px; */
   /* float: left; */
   /* padding-top: 400px; */
@@ -95,7 +96,7 @@ h2 {
   margin-top: 0px;
   /* margin-bottom: 0px; */
   padding-top: 4%;
-  padding-left: 80%;
+  padding-left: 78%;
   position: absolute;
   z-index: -1;
   /* display: contents; */
