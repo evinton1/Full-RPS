@@ -82,6 +82,9 @@ let endGame = function() {
   document.getElementById("Rock").disabled = true;
   document.getElementById("Paper").disabled = true;
   document.getElementById("Scissors").disabled = true;
+  document.getElementById("Rock").style.display = none;
+  document.getElementById("Paper").style.display = none;
+  document.getElementById("Scissors").style.display = none;
 };
 
 let newGame = function() {
