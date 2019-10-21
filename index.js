@@ -10,10 +10,10 @@ rock.addEventListener("click", function(e) {
   playRound();
   if (playerScore === 5) {
     endGame();
-    document.getElementById("results").innerHTML =("Player Wins the Game!");
+    document.getElementById("results").innerHTML =("Player Wins the Game! Let's all get along!");
   } else if (computerScore === 5) {
     endGame();
-    document.getElementById("results").innerHTML =("Computer Wins the Game!");
+    document.getElementById("results").innerHTML =("Computer Wins the Game! Let's all get along!");
   
   }
 });
@@ -22,10 +22,10 @@ paper.addEventListener("click", function(e) {
   playRound();
   if (playerScore === 5) {
     endGame();
-    document.getElementById("results").innerHTML =("Player Wins the Game!");
+    document.getElementById("results").innerHTML =("Player Wins the Game! Let's all get along!");
   } else if (computerScore === 5) {
     endGame();
-    document.getElementById("results").innerHTML =("Computer Wins the Game!");
+    document.getElementById("results").innerHTML =("Computer Wins the Game! Let's all get along!");
   }
 });
 scissors.addEventListener("click", function(e) {
@@ -33,10 +33,10 @@ scissors.addEventListener("click", function(e) {
   playRound();
   if (playerScore === 5) {
     endGame();
-    document.getElementById("results").innerHTML =("Player Wins the Game!");
+    document.getElementById("results").innerHTML =("Player Wins the Game! Let's all get along!");
   } else if (computerScore === 5) {
     endGame();
-    document.getElementById("results").innerHTML =("Computer Wins the Game!");
+    document.getElementById("results").innerHTML =("Computer Wins the Game! Let's all get along!");
   }
 });
 const reset = document.getElementById("reset");
