@@ -20,7 +20,7 @@
   /* text-align: center; */
   position: absolute;
   /* z-index: -1; */
-  margin-top: 250px;
+  margin-top: 15%;
   }
 #pScore {
   color: rgb(52, 42, 104);
@@ -29,7 +29,7 @@
   width: fit-content;
   padding-left: 19%;
   margin-top: 0px;
-  padding-top: 3%;
+  padding-top: 4%;
   height: fit-content;
   /* justify-content: center; */
   position: absolute;
@@ -38,6 +38,7 @@
 h2 {
   color: rgb(52, 42, 104);
   font-size: 30px;
+  margin-bottom: 0px;
   /* margin-right: 0px; */
   /* float: left; */
   /* padding-top: 400px; */
@@ -48,7 +49,7 @@ h2 {
   height: fit-content;
   margin-top: 0px;
   /* margin-bottom: 0px; */
-  padding-top: 3%;
+  padding-top: 4%;
   padding-left: 81%;
   position: absolute;
   z-index: -1;
