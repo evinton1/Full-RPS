@@ -91,6 +91,9 @@ let newGame = function() {
   document.getElementById("Rock").disabled = false;
   document.getElementById("Paper").disabled = false;
   document.getElementById("Scissors").disabled = false;
+  document.getElementById("Rock").style.visibility = "visible";
+  document.getElementById("Paper").style.visibility = "visible";
+  document.getElementById("Scissors").style.visibility = "visible";
   document.getElementById("pScore").innerHTML = playerScore = 0;
   document.getElementById("cScore").innerHTML = computerScore = 0;
 };
