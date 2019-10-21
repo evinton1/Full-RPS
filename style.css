@@ -1,31 +1,30 @@
-input#Rock {
+#Rock {
     box-shadow: 2px 1px 7px 3px #999;
 }
 
-input#Paper {
+#Paper {
     box-shadow: 2px 1px 7px 3px #999;
 }
 
-input#Scissors {
+#Scissors {
     box-shadow: 2px 1px 7px 3px #999;
 }
 
-input#Rock:active{
+#Rock:active{
+box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#Paper:active{
 box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-input#Paper:active{
+#Scissors:active{
 box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-input#Scissors:active{
-box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-input#reset:active{
+#reset:active{
 box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -108,7 +107,3 @@ button {
   margin-left: 14%;
   float: left;
  }
-
-#Scissors {
-  margin-right: 0px;
-}
