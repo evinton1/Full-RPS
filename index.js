@@ -42,6 +42,7 @@ scissors.addEventListener("click", function(e) {
 const reset = document.getElementById("reset");
 reset.addEventListener("click", function(e) {
   newGame();
+  document.getElementById("results").innerHTML =("Let's Play Again!");
 });
 
 let playerSelection;
